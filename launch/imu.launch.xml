@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <node pkg="spr_imu" exec="spr_imu" output="screen">
+        <param name="acc_range" value="4" />
+        <param name="gyro_range" value="250" />
+        <param name="fifo_depth" value="4" />
+        <param name="sample_rate" value="60" />
+
+        <param name="imu_topic" value="/imu/raw" />
+        <param name="temperature_topic" value="/imu/temperature" />
+        <param name="frame_id" value="imu" />
+        <param name="serial_device" value="/dev/ttyUSB0" />
+    </node>
+</launch>
