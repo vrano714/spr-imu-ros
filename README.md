@@ -2,7 +2,7 @@
 
 This repository contains `pwbimu_logger` wrapper code, just for testing, not for production.
 
-Before run this, bake the example at [https://github.com/sonydevworld/spresense/tree/master/examples/cxd5602pwbimu](https://github.com/sonydevworld/spresense/tree/master/examples/cxd5602pwbimu).
+Before run this, bake the example at [https://github.com/sonydevworld/spresense/tree/master/examples/cxd5602pwbimu_logger](https://github.com/sonydevworld/spresense/tree/master/examples/cxd5602pwbimu_logger).
 
 ## Run
 
